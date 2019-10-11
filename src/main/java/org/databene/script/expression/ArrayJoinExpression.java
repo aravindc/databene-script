@@ -29,7 +29,8 @@ public class ArrayJoinExpression<E> extends CompositeExpression<E[], E[]> {
 	
 	private Class<E> componentType;
 
-    public ArrayJoinExpression(Class<E> componentType, Expression<E[]>... terms) {
+    @SafeVarargs
+	public ArrayJoinExpression(Class<E> componentType, Expression<E[]>... terms) {
 	    super(terms);
 	    this.componentType = componentType;
     }

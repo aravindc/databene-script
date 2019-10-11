@@ -27,6 +27,7 @@ import org.databene.script.Expression;
  */
 public class ConditionalAndExpression extends CompositeExpression<Object, Boolean> {
 
+	@SafeVarargs
 	public ConditionalAndExpression(String symbol, Expression<Object>... terms) {
         super(symbol, terms);
     }

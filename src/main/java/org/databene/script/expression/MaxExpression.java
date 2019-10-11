@@ -37,6 +37,7 @@ public class MaxExpression<E> extends CompositeExpression<E,E> {
 	    this(new ComparableComparator(), terms);
     }
 
+	@SafeVarargs
 	public MaxExpression(Comparator<E> comparator, Expression<E>... terms) {
 	    super("", terms);
 	    this.comparator = comparator;

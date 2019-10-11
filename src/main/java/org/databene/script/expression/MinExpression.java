@@ -38,6 +38,7 @@ public class MinExpression<E> extends CompositeExpression<E,E> {
 	    this(new ComparableComparator(), terms);
     }
 
+	@SafeVarargs
 	public MinExpression(Comparator<E> comparator, Expression<E>... terms) {
 	    super("", terms);
 	    this.comparator = comparator;

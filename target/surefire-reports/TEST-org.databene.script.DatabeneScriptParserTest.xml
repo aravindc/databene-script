@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="72" failures="0" name="org.databene.script.DatabeneScriptParserTest" time="0.876" errors="0" skipped="0">
+<testsuite tests="72" failures="0" name="org.databene.script.DatabeneScriptParserTest" time="0.847" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Aimia\Software\JDK18\jre\bin"/>
@@ -27,9 +27,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\AChockalingam\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7776918406650305306.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\AChockalingam\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5874129709051345521.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Aimia\Software\JDK18\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;W:\Python36\Scripts\;W:\Python36\;W:\Python37\Scripts\;W:\Python37\;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\CheckPoint\Endpoint Security Agent\Endpoint Common\bin;C:\Program Files (x86)\Common Files\Check Point\UIFramework 3.0\Bin\;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\Aimia\Software\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Aimia\Software\maven\bin;C:\OpenSSL-Win64\bin;C:\Program Files (x86)\VideoLAN\VLC;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Aimia\Software\gnu\GetGnuWin32\gnuwin32\bin;C:\Aimia\Development\selenium-headless;C:\Aimia\Software\ant\bin;C:\Aimia\Software\SeleniumDrivers;C:\Go\bin\;C:\GoWork\bin;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\GIMP 2\bin;C:\Aimia\Software\PuTTY\;C:\Program Files\Snowflake SnowSQL\;C:\Aimia\Software\flutter\bin;C:\nodejs\;C:\Yarn\bin\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\WindowsPowerShell\v1.0\;W:\Aimia\Development\selenium-headless;W:\Aimia\Software\jasypt-1.9.2\bin;C:\Aimia\Software\JDK18\bin\;C:\windows\System32\WindowsPowerShell\v1.0\;W:\tmp\nmap-7.70;W:\anaconda3;W:\anaconda3\Library\mingw-w64\bin;W:\anaconda3\Library\usr\bin;W:\anaconda3\Library\bin;W:\anaconda3\Scripts;C:\Users\AChockalingam\AppData\Roaming\Dashlane\5.1.0.11228\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\AChockalingam\AppData\Roaming\Dashlane\5.1.0.11228\ucrt;C:\Users\AChockalingam\AppData\Roaming\npm;C:\Users\AChockalingam\AppData\Local\Yarn\bin;C:\Users\AChockalingam\AppData\Roaming\Dashlane\6.0.1.11015\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\AChockalingam\AppData\Roaming\Dashlane\6.0.1.11015\ucrt;C:\Users\AChockalingam\AppData\Roaming\Dashlane\6.0.1.11015\bin\Qt;C:\Users\AChockalingam\AppData\Roaming\Dashlane\6.0.1.11015\ucrt;C:\Users\AChockalingam\AppData\Roaming\Dashlane\6.0.1.11015\bin\Ssl;W:\Aimia\Software\VSCode\bin;C:\Users\AChockalingam\Desktop;;."/>
+    <property name="java.library.path" value="C:\Aimia\Software\JDK18\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;W:/Aimia/Software/AdoptOpenJDK/jdk8u222-b10/bin/../jre/bin/server;W:/Aimia/Software/AdoptOpenJDK/jdk8u222-b10/bin/../jre/bin;W:/Aimia/Software/AdoptOpenJDK/jdk8u222-b10/bin/../jre/lib/amd64;W:\Aimia\Software\AdoptOpenJDK\jdk8u222-b10\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;W:\Python36\Scripts\;W:\Python36\;W:\Python37\Scripts\;W:\Python37\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\CheckPoint\Endpoint Security Agent\Endpoint Common\bin;C:\Program Files (x86)\Common Files\Check Point\UIFramework 3.0\Bin\;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\Aimia\Software\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Aimia\Software\maven\bin;C:\Program Files (x86)\VideoLAN\VLC;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Aimia\Software\gnu\GetGnuWin32\gnuwin32\bin;C:\Aimia\Development\selenium-headless;C:\Aimia\Software\ant\bin;C:\Aimia\Software\SeleniumDrivers;C:\Go\bin\;C:\GoWork\bin;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\GIMP 2\bin;C:\Aimia\Software\PuTTY\;C:\Program Files\Snowflake SnowSQL\;C:\Aimia\Software\flutter\bin;C:\nodejs\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\WindowsPowerShell\v1.0\;W:\Aimia\Development\selenium-headless;W:\Aimia\Software\jasypt-1.9.2\bin;C:\windows\System32\WindowsPowerShell\v1.0\;W:\tmp\nmap-7.70;%HADOOP_HOME%\bin;%SPARK_HOME%\bin;%HADOOP_HOME%\sbin;W:\Go\bin;C:\ProgramData\chocolatey\bin;W:\Aimia\Software\Oracle\VirtualBox;W:\OpenSSL-Win64\bin;C:\Yarn\bin\;W:\Ballerina\ballerina-1.0.0\\bin;w:\hashicorp\tf;W:\anaconda3;W:\anaconda3\Library\mingw-w64\bin;W:\anaconda3\Library\usr\bin;W:\anaconda3\Library\bin;W:\anaconda3\Scripts;W:\Tcl\bin;C:\Users\AChockalingam\AppData\Roaming\Dashlane\5.1.0.11228\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\AChockalingam\AppData\Roaming\Dashlane\5.1.0.11228\ucrt;C:\Users\AChockalingam\AppData\Roaming\npm;C:\Users\AChockalingam\AppData\Roaming\Dashlane\6.0.1.11015\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\AChockalingam\AppData\Roaming\Dashlane\6.0.1.11015\ucrt;C:\Users\AChockalingam\AppData\Roaming\Dashlane\6.0.1.11015\bin\Qt;C:\Users\AChockalingam\AppData\Roaming\Dashlane\6.0.1.11015\ucrt;C:\Users\AChockalingam\AppData\Roaming\Dashlane\6.0.1.11015\bin\Ssl;W:\Aimia\Software\VSCode\bin;W:\Aimia\Software\AdoptOpenJDK\jdk8u222-b10\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;W:\Python36\Scripts\;W:\Python36\;W:\Python37\Scripts\;W:\Python37\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\CheckPoint\Endpoint Security Agent\Endpoint Common\bin;C:\Program Files (x86)\Common Files\Check Point\UIFramework 3.0\Bin\;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\Aimia\Software\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Aimia\Software\maven\bin;C:\Program Files (x86)\VideoLAN\VLC;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Aimia\Software\gnu\GetGnuWin32\gnuwin32\bin;C:\Aimia\Development\selenium-headless;C:\Aimia\Software\ant\bin;C:\Aimia\Software\SeleniumDrivers;C:\Go\bin\;C:\GoWork\bin;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\GIMP 2\bin;C:\Aimia\Software\PuTTY\;C:\Program Files\Snowflake SnowSQL\;C:\Aimia\Software\flutter\bin;C:\nodejs\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\WindowsPowerShell\v1.0\;W:\Aimia\Development\selenium-headless;W:\Aimia\Software\jasypt-1.9.2\bin;C:\windows\System32\WindowsPowerShell\v1.0\;W:\tmp\nmap-7.70;%HADOOP_HOME%\bin;%SPARK_HOME%\bin;%HADOOP_HOME%\sbin;W:\Go\bin;C:\ProgramData\chocolatey\bin;W:\Aimia\Software\Oracle\VirtualBox;W:\OpenSSL-Win64\bin;C:\Yarn\bin\;W:\Ballerina\ballerina-1.0.0\\bin;w:\hashicorp\tf;%DASHLANE_DLL_DIR%;C:\Users\AChockalingam\go\bin;C:\Users\AChockalingam\AppData\Local\Yarn\bin;C:\Users\AChockalingam\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,55 +61,55 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testStringLiteral" time="0.56"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testRightShift" time="0.016"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testStringLiteral" time="0.515"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testRightShift" time="0.007"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testLongLiteral" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testObjectSpecByRef" time="0.015"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testNumberSum" time="0.016"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testArrayIndex" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testSubFieldMethod" time="0.031"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testObjectSpecByRef" time="0.005"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testNumberSum" time="0.017"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testArrayIndex" time="0.005"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testSubFieldMethod" time="0.028"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testLeftShift" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testChoiceWithMissingTrueAlternative" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testTimestampSum" time="0.016"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testConditionalAnd" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testVariableAssignment" time="0.015"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testParseCustomConstruction" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testObjectSpecByConstructor" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testMultipication" time="0.016"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testTimestampSum" time="0.015"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testConditionalAnd" time="0.003"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testVariableAssignment" time="0.002"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testParseCustomConstruction" time="0.006"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testObjectSpecByConstructor" time="0.025"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testMultipication" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testAnd" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testSubField" time="0.005"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testStaticSubField" time="0.014"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testParsePropertyConstruction" time="0.016"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testCast" time="0"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testSubField" time="0"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testStaticSubField" time="0"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testParsePropertyConstruction" time="0"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testCast" time="0.051"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testEnum" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testLess" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testRightShift2" time="0.016"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testRightShift2" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testConditionalOr" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testTrailingWhiteSpace" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testMemberAssignment" time="0.015"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testMemberAssignment" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testVarargsInvocation" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testChoiceWithMissingFalseAlternative" time="0.016"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testChoiceWithMissingFalseAlternative" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testGreaterOrEqual" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testStaticCall" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testMissingLHS" time="0.016"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testStaticCall" time="0.004"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testMissingLHS" time="0.018"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testMissingRHS" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testDateTimeSum" time="0.015"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testConditionalExpression" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testListIndex" time="0.016"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testObjectInvocation" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testReference" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testBitwiseComplement" time="0"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testDateTimeSum" time="0.019"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testConditionalExpression" time="0.01"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testListIndex" time="0.002"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testObjectInvocation" time="0.003"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testReference" time="0.002"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testBitwiseComplement" time="0.02"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testGreater" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testTransitionListOfLength1" time="0"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testTransitionListOfLength1" time="0.01"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testInclusiveOr" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testObjectSpecList" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testMissingOperator" time="0.015"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testStaticInvocation" time="0"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testMissingOperator" time="0"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testStaticInvocation" time="0.01"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testReferenceInvocation" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testParenthesis" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testUndefinedVariableReference" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testStringSum" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testObjectSpecByClass" time="0"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testStringSum" time="0.01"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testObjectSpecByClass" time="0.02"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testTimestampDifference" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testVariableDefinition" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testMapIndex" time="0"/>
@@ -117,20 +117,20 @@
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testIntLiteral" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testTransitionList" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testDateSum" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testDivision" time="0"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testDivision" time="0.01"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testNullLiteral" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testEquals" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testWeightedLiteralList" time="0"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testWeightedLiteralList" time="0.01"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testModulo" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testNotEquals" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testBooleanLiteral" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testNegation" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testLogicalComplement" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testDateDifference" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testLessOrEqual" time="0.016"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testSubCall" time="0.031"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testDateDifference" time="0.01"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testLessOrEqual" time="0"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testSubCall" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testDoubleLiteral" time="0"/>
-  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testConstructor" time="0"/>
+  <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testConstructor" time="0.01"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testInvalidChoiceCondition" time="0"/>
   <testcase classname="org.databene.script.DatabeneScriptParserTest" name="testStringIndex" time="0"/>
 </testsuite>

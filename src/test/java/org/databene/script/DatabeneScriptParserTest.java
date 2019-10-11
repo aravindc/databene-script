@@ -28,7 +28,8 @@ import org.databene.script.expression.ExpressionUtil;
 
 import org.junit.Before;
 import org.junit.Test;
-import static junit.framework.Assert.*;
+import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Tests the {@link DatabeneScriptParser}.<br/>
@@ -453,7 +454,7 @@ public class DatabeneScriptParserTest {
 		checkAB1Transition(ts[0]);
 	    assertEquals(1, ts[1].getFrom());
 		assertEquals(2, ts[1].getTo());
-		assertEquals( 0.5, ts[1].getWeight());
+		assertEquals( 0.5, ts[1].getWeight(), 0);
 	}
 
 	@Test
@@ -461,9 +462,9 @@ public class DatabeneScriptParserTest {
 		WeightedSample<?>[] ts = DatabeneScriptParser.parseWeightedLiteralList("'A',1^0.5");
 		assertEquals(2, ts.length);
 	    assertEquals("A", ts[0].getValue());
-	    assertEquals(1., ts[0].getWeight());
+	    assertEquals(1., ts[0].getWeight(), 0);
 		assertEquals(1, ts[1].getValue());
-		assertEquals(0.5, ts[1].getWeight());
+		assertEquals(0.5, ts[1].getWeight(), 0);
 	}
 
 	
@@ -626,7 +627,7 @@ public class DatabeneScriptParserTest {
 	private static void checkAB1Transition(WeightedTransition t10) {
 	    assertEquals("A", t10.getFrom());
 		assertEquals("B", t10.getTo());
-		assertEquals(1., t10.getWeight());
+		assertEquals(1., t10.getWeight(), 0);
     }
 
 }

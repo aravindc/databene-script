@@ -25,7 +25,8 @@ import org.databene.script.Expression;
  */
 public class FallbackExpression<E> extends CompositeExpression<E,E> {
 
-    public FallbackExpression(Expression<E>... terms) {
+    @SafeVarargs
+	public FallbackExpression(Expression<E>... terms) {
 	    super(terms);
     }
 

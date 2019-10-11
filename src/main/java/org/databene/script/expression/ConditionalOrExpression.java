@@ -30,6 +30,7 @@ public class ConditionalOrExpression extends CompositeExpression<Object,Boolean>
 	
 	private String symbol;
 	
+	@SafeVarargs
 	public ConditionalOrExpression(String symbol, Expression<Object>... terms) {
 		super(terms);
 		this.symbol = symbol;
