@@ -1,7 +1,7 @@
 name: Github Actions for Databene Script
 on: [push]
 jobs:
-  Compile-Benerator:
+  Compile-Databene-Script:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
